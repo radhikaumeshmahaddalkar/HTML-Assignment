@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>
+            <h1>Registration Form</h1>
+        </legend>
+        <label for="Sname">Student Name :</label>
+        <!--label-->
+        <input type="text" name="StudentName" id="Sname">
+        <!--input-->
+        <br><br>
+        <label for="bdate">Birthdate :</label>
+        <input type="date" name="birthdate" id="bdate">
+        <!--date-->
+        <br><br>
+        <label for="">Gender :</label> <!-- radio Button-->
+        <label for="male">
+            <input type="radio" name="team" id="male" value="Male" checked>Male
+        </label>
+        <label for="female">
+            <input type="radio" name="team" id="female" value="female">Female
+        </label>
+        <br><br>
+        <label for="email">Email-id :</label>
+        <input type="email" id="email">
+        <br><br>
+        <label for="mobNo.">Mobile Number :</label>
+        <input type="text" id="mobNo.">
+        <br><br>
+        <label for="stream ">Stream :</label>
+        <select name="stream" id="stream">
+            <option value="science">Science</option>
+            <option value="commerce">Commerce</option>
+            <option value="arts">Arts</option>
+        </select>
+        <br><br>
+        <label for=""> Subjects :</label> <!-- checkbox-->
+        <label for="physics">
+            <input type="checkbox" name="sub" id="physics" value="physics"> Physics
+        </label>
+        <label for="chemistry">
+            <input type="checkbox" name="sub" id="chemistry" value="chemistry"> Chemistry
+        </label>
+        <label for="maths">
+            <input type="checkbox" name="sub" id="maths" value="ImathsT"> Mathematics
+        </label>
+        <label for="bio">
+            <input type="checkbox" name="sub" id="bio" value="bio"> Biology
+        </label>
+        <br><br>
+        <label for="addr">Address :</label>
+        <textarea name="address" id="addr" cols="25" rows="10"></textarea>
+        <!--Textarea-->
+        <br><br><br>
+        <button type="submit"> Submit</button>
+        <!--button-->
+    </fieldset>
+
+</body>
+
+</html>
